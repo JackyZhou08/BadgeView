@@ -1,0 +1,8 @@
+<resources>
+
+    <declare-styleable name="BadgeView">
+        <attr name="circle_padding" format="dimension|reference" />
+        <attr name="text_size" format="dimension|reference" />
+    </declare-styleable>
+
+</resources>

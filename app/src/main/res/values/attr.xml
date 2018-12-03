@@ -3,6 +3,8 @@
     <declare-styleable name="BadgeView">
         <attr name="circle_padding" format="dimension|reference" />
         <attr name="text_size" format="dimension|reference" />
+        <attr name="text_color" format="color|reference" />
+        <attr name="background_color" format="color|reference" />
     </declare-styleable>
 
 </resources>

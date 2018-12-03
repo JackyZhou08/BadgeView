@@ -6,10 +6,29 @@
 
 
     <com.example.jacky_pc.badgeview.BadgeView
+        android:id="@+id/bv_number"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
+        app:background_color="#f45d01"
         app:circle_padding="4dp"
+        app:text_color="@android:color/white"
         app:text_size="10sp" />
+
+
+    <EditText
+        android:id="@+id/et_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/et_input"
+        android:onClick="onChange"
+        android:text="确定"
+        android:textColor="@android:color/black" />
+
 
 </RelativeLayout>
